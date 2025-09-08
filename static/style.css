@@ -34,6 +34,23 @@ body > h1 {
     z-index: 1000;
 }
 
+/* ロゴのボタンスタイル */
+.logo {
+    display: inline-block;
+    padding: 5px 5px;
+    margin: 5px 5px; /* ボタンの上下左右に50pxの余白を追加 */
+    font-size: 28px;
+    color: black;
+    background-color: #fefbf8;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Impact, sans-serif;
+}
+
+
 /* index.htmlのボタンスタイル */
 .nav-button {
     display: inline-block;
